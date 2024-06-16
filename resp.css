@@ -28,9 +28,9 @@
     .hero .hero-content {
         margin: 0 auto;
         display: block;
-        max-width: 700px;
+        max-width: 600px;
         height: 50vh;
-        gap: 3vh;
+        gap: 1vh;
         margin-top: 5vh;
         align-items: center;
     }
