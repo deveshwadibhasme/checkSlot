@@ -134,8 +134,7 @@
 
     #project-globe{
         height: 35vh;
-        width: 30vw;
-        transform: translateY(-400px);
+        width: 30vh;
     }
     
     .blocks{
