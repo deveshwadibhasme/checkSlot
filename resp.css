@@ -153,6 +153,7 @@
    .blocks{
         zoom: 60%;
         min-width: 20vh;
+       max-height:15vh;
     }
 
 }
