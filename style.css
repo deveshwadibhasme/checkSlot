@@ -251,7 +251,7 @@ i {
         transform: perspective(1000px) rotateY(360deg);
     }
 }
-.project-index #project-globe{
+ #project-globe{
     position: absolute;
     margin: 0 auto;
     height: 38vh;
