@@ -149,6 +149,8 @@
         font-size: 1em;
         max-width: 100vw;
     }
-
+    .blocks{
+        width:20%;
+    }
 
 }
