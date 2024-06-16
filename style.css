@@ -233,7 +233,7 @@ i {
     top: 33vh;
     height: 60vh;
     width: 95vw;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 95vw;
     z-index: 10;
     align-items: flex-end;
@@ -253,12 +253,14 @@ i {
 }
 .project-index #project-globe{
     position: absolute;
+    margin: 0 auto;
+    height: 38vh;
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
 }
 
-.project-1,
+/* .project-1,
 .project-2,
 .project-3,
 .project-4 {
@@ -269,7 +271,7 @@ i {
     width: 13vw;
     background-color: cornflowerblue;
     transition: all 1.5s ease-in;
-}
+} */
 
 .project-index:hover  {
     animation-play-state:paused ;
@@ -282,7 +284,7 @@ i {
     object-position: center;
 }
 
-.project-4 {
+/* .project-4 {
     height: 48vh;
     width: 18vw;
     z-index: 8;
@@ -300,7 +302,7 @@ i {
     height: 41vh;
     width: 14vw;
     background-color: rgba(70, 136, 105, 0.712);
-}
+} */
 
 .details-project {
     margin: 0 auto;
@@ -355,10 +357,11 @@ i {
     display: block;
     background-color: cornflowerblue;
     text-align: center;
-    min-width: 22vh;
+    max-width: 22vh;
     min-height: 20vh;
     word-wrap: break-word;
     padding-top: 4vh;
+    padding: 20px;
     z-index: 5;
 }
 
