@@ -31,7 +31,7 @@
         max-width: 700px;
         height: 50vh;
         gap: 3vh;
-        margin-top: 10vh;
+        margin-top: 5vh;
         align-items: center;
     }
 
@@ -138,7 +138,9 @@
         transform: translateY(-400px);
     }
     
-
+    .blocks{
+        height:fit-content;
+    }
     /* .project-h1 {
         margin: 0 auto;
         display: grid;
